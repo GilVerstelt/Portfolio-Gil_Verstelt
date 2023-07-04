@@ -1,0 +1,24 @@
+/*!---containers---*/
+.container{
+  width: 80%;
+  margin: auto;
+}
+/*---intoduction snap effect---*/
+.snapContainer {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+}
+.snapper {
+  min-height: 100vh;
+  scroll-snap-align: start;
+}
+/*---style-of-the-first-100vh---*/
+.hero{
+  background-color: var(--darkest);
+  color: var(--light);
+}
+.recentProjects {
+  height: 400vh;
+}
+
